@@ -1,12 +1,18 @@
-[![Build Status](https://travis-ci.org/frabcus/mpcv.svg?branch=master)](https://travis-ci.org/frabcus/mpcv)
+[![Build Status](https://travis-ci.org/judsonsam/mpcv.svg?branch=master)](https://travis-ci.org/judsonsam/mpcv)
 
+MPCV
+====
 
 Introduction
 ============
 
-This is the source code to http://cv.democracyclub.org.uk/, which gathers the
+This is a fork of http://cv.democracyclub.org.uk/, which gathers the
 Curriculum Vitae of candidates for Member of Parliament of the UK.
 
+Installation
+============
+
+TODO
 
 Environment
 ===========
@@ -85,7 +91,7 @@ These test the main use paths, and any serious browser-side Javascript.
 ./selenium_tests.py http://localhost:5000/
 ```
 
-The first parameter is the URL the site to test is running on. 
+The first parameter is the URL the site to test is running on.
 
 It makes some assumptions about the ZZ9 9ZZ postcode - in particular it will
 upload a CV to one of the test users in that postcode.
