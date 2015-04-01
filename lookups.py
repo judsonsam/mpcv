@@ -307,7 +307,7 @@ def _hash_by_prefix(config, prefix):
     result = collections.OrderedDict()
     for key in cvs:
         # we use .jpg thumbnails now (and don't accept images as CVs)
-        if key.name.endswith(".png"):
+        if key.name.endswith(".png") or key.name.endswith("/"):
             continue
 
         key_last_modified = boto.utils.parse_ts(key.last_modified)
